@@ -6,7 +6,6 @@ using System.Linq;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading;
-using System.Windows.Forms;
 using System.Threading.Tasks;
 
 namespace SimplePush
@@ -48,6 +47,7 @@ namespace SimplePush
             }
             return data;
         }
+
         public void process()
         {
             // we can't use a StreamReader for input, because it buffers up extra data on us inside it's
@@ -131,6 +131,7 @@ namespace SimplePush
         }
 
         private const int BUF_SIZE = 4096;
+
         public void handlePOSTRequest()
         {
             // this post data processing just reads everything into a memory stream.
@@ -178,7 +179,7 @@ namespace SimplePush
             Console.WriteLine("get post data end");
             srv.handlePOSTRequest(this, new StreamReader(ms));
 
-            MessageBox.Show("POST REQUEST RECEIVED");
+            
 
         }
 

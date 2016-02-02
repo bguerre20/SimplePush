@@ -19,6 +19,7 @@ namespace SimplePush
             HttpServer httpServer = new SimpleHttpServer(8080);
             Thread thread = new Thread(new ThreadStart(httpServer.listen));
             thread.Start();
+
         }
 
         public static string GetLocalIPAddress()
