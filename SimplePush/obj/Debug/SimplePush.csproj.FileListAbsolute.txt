@@ -5,3 +5,4 @@ c:\users\bryan\documents\visual studio 2015\Projects\SimplePush\SimplePush\obj\D
 c:\users\bryan\documents\visual studio 2015\Projects\SimplePush\SimplePush\obj\Debug\SimplePush.pdb
 C:\Users\Bryan\Documents\Visual Studio 2015\Projects\SimplePush\SimplePush\obj\Debug\SimplePush.NotifyWindow.resources
 C:\Users\Bryan\Documents\Visual Studio 2015\Projects\SimplePush\SimplePush\obj\Debug\SimplePush.csproj.GenerateResource.Cache
+C:\Users\Bryan\Documents\Visual Studio 2015\Projects\SimplePush\SimplePush\obj\Debug\SimplePush.csprojResolveAssemblyReference.cache
